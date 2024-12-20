@@ -1,0 +1,65 @@
+.dice {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.dice:hover {
+  transform: rotate(5deg);
+}
+
+.dot {
+  width: 15px;
+  height: 15px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top-left {
+  top: 25%;
+  left: 25%;
+}
+
+.top-right {
+  top: 25%;
+  right: 25%;
+}
+
+.bottom-left {
+  bottom: 25%;
+  left: 25%;
+}
+
+.bottom-right {
+  bottom: 25%;
+  right: 25%;
+}
+
+.middle-left {
+  top: 50%;
+  left: 25%;
+  transform: translateY(-50%);
+}
+
+.middle-right {
+  top: 50%;
+  right: 25%;
+  transform: translateY(-50%);
+}
