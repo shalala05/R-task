@@ -1,9 +1,8 @@
-// Portfolio SPA-proqramı
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import Navbar from "./Navbar";
 import About from "./pages/About";
-import Projects from "./pages/Project";
+import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 
 const App = () => {
